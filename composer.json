@@ -1,1 +1,0 @@
-{ "require" : { "php": ">=7.3.10", "cboden/ratchet": "dev-master" } }
