@@ -26,7 +26,7 @@ $msg=str_replace("Examples:","<u>Examples</u>: ",$msg);
 $msg=str_replace("Today in News:","<u>Today in News</u>: ",$msg);
 $msg=str_replace("Today in news:","<u>Today in News</u>: ",$msg);
 $msg=str_replace("Today in newspaper:","<u>Today in newspaper</u>: ",$msg);
-$msg=str_replace("Today in Newspaper:","<u>today in Newspaper</u>: ",$msg);
+$msg=str_replace("Today in Newspaper:","<u>Today in Newspaper</u>: ",$msg);
 
 $pieces = explode(" ", $msg);
 if (in_array("📚", $pieces))
