@@ -5,6 +5,7 @@ $chat_id=$data->message->chat->id;
 $text=$data->message->text;
 //$msg="$text";
 echo "Hello I am here";
+$handle = fopen("log.txt", "a");
     $date = (new DateTime())->setTimeZone(new DateTimeZone('Asia/Kolkata'))->format('Y-m-d H:i:s');
 $msg=str_replace("\n"," %0A",$text);
 
